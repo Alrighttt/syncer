@@ -1,0 +1,7 @@
+/Users/bud/repos/syncer/target/release/deps/tokio_macros-aa797e9229c23466.d: /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/lib.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/entry.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/select.rs
+
+/Users/bud/repos/syncer/target/release/deps/libtokio_macros-aa797e9229c23466.dylib: /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/lib.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/entry.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/select.rs
+
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/lib.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/entry.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-macros-2.7.0/src/select.rs:

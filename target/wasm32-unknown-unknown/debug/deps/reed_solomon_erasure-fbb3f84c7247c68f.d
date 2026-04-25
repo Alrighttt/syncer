@@ -1,0 +1,14 @@
+/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/deps/reed_solomon_erasure-fbb3f84c7247c68f.d: /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/lib.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/macros.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/core.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/errors.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/matrix.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_16.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_8.rs /Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/build/reed-solomon-erasure-29579be1fdbce8e4/out/table.rs
+
+/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/deps/libreed_solomon_erasure-fbb3f84c7247c68f.rmeta: /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/lib.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/macros.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/core.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/errors.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/matrix.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_16.rs /Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_8.rs /Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/build/reed-solomon-erasure-29579be1fdbce8e4/out/table.rs
+
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/lib.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/macros.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/core.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/errors.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/matrix.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_16.rs:
+/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/reed-solomon-erasure-6.0.0/src/galois_8.rs:
+/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/build/reed-solomon-erasure-29579be1fdbce8e4/out/table.rs:
+
+# env-dep:OUT_DIR=/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/build/reed-solomon-erasure-29579be1fdbce8e4/out

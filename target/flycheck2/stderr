@@ -1,0 +1,274 @@
+   0.058778750s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="sia"}: cargo::core::compiler::fingerprint: fingerprint error for sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk)/Check { test: false }/TargetInner { ..: lib_target("sia", ["lib"], "/Users/bud/repos/syncer/sia_sdk/src/lib.rs", Edition2024) }
+   0.058800625s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="sia"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/sia_sdk-96196b347cb3d108/lib-sia`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.067424416s  INFO prepare_target{force=false package_id=tokio v1.52.1 target="tokio"}: cargo::core::compiler::fingerprint: fingerprint error for tokio v1.52.1/Check { test: false }/TargetInner { ..: lib_target("tokio", ["lib"], "/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tokio-1.52.1/src/lib.rs", Edition2021) }
+   0.067435500s  INFO prepare_target{force=false package_id=tokio v1.52.1 target="tokio"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/tokio-20e39e5cb8d80153/lib-tokio`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.069522250s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="sia"}: cargo::core::compiler::fingerprint: fingerprint error for sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk)/Check { test: true }/TargetInner { ..: lib_target("sia", ["lib"], "/Users/bud/repos/syncer/sia_sdk/src/lib.rs", Edition2024) }
+   0.069526583s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="sia"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/sia_sdk-77346adfa863a5e4/test-lib-sia`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.070102875s  INFO prepare_target{force=false package_id=criterion v0.8.2 target="criterion"}: cargo::core::compiler::fingerprint: fingerprint error for criterion v0.8.2/Check { test: false }/TargetInner { benched: false, ..: lib_target("criterion", ["lib"], "/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/criterion-0.8.2/src/lib.rs", Edition2021) }
+   0.070106500s  INFO prepare_target{force=false package_id=criterion v0.8.2 target="criterion"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/criterion-23a7c133717d3b24/lib-criterion`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.071661083s  INFO prepare_target{force=false package_id=rustls-platform-verifier v0.6.2 target="rustls_platform_verifier"}: cargo::core::compiler::fingerprint: fingerprint error for rustls-platform-verifier v0.6.2/Check { test: false }/TargetInner { ..: lib_target("rustls_platform_verifier", ["lib"], "/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-platform-verifier-0.6.2/src/lib.rs", Edition2021) }
+   0.071666083s  INFO prepare_target{force=false package_id=rustls-platform-verifier v0.6.2 target="rustls_platform_verifier"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/rustls-platform-verifier-0d9f84f84433b6e2/lib-rustls_platform_verifier`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.071870583s  INFO prepare_target{force=false package_id=rustls v0.23.39 target="rustls"}: cargo::core::compiler::fingerprint: fingerprint error for rustls v0.23.39/Check { test: false }/TargetInner { ..: lib_target("rustls", ["lib"], "/Users/bud/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-0.23.39/src/lib.rs", Edition2021) }
+   0.071873791s  INFO prepare_target{force=false package_id=rustls v0.23.39 target="rustls"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/rustls-fb6bc6ca91a72a79/lib-rustls`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.072404666s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="merkle_root"}: cargo::core::compiler::fingerprint: fingerprint error for sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk)/Check { test: true }/TargetInner { kind: "bench", name: "merkle_root", tested: false, harness: false, ..: with_path("/Users/bud/repos/syncer/sia_sdk/benches/merkle_root.rs", Edition2024) }
+   0.072408875s  INFO prepare_target{force=false package_id=sia_sdk v0.2.0 (/Users/bud/repos/syncer/sia_sdk) target="merkle_root"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/sia_sdk-7ff6cd25ef1ca430/test-bench-merkle_root`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.073088958s  INFO prepare_target{force=false package_id=sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer) target="sia_syncer"}: cargo::core::compiler::fingerprint: fingerprint error for sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sia_syncer", ["lib"], "/Users/bud/repos/syncer/syncer/src/lib.rs", Edition2024) }
+   0.073097750s  INFO prepare_target{force=false package_id=sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer) target="sia_syncer"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/sia_syncer-f744362e38c13160/lib-sia_syncer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.073333000s  INFO prepare_target{force=false package_id=sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer) target="sia_syncer"}: cargo::core::compiler::fingerprint: fingerprint error for sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("sia_syncer", ["lib"], "/Users/bud/repos/syncer/syncer/src/lib.rs", Edition2024) }
+   0.073336625s  INFO prepare_target{force=false package_id=sia_syncer v0.1.0 (/Users/bud/repos/syncer/syncer) target="sia_syncer"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/sia_syncer-205d8568f43cbce2/test-lib-sia_syncer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.073730000s  INFO prepare_target{force=false package_id=syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm) target="syncer_wasm"}: cargo::core::compiler::fingerprint: fingerprint error for syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("syncer_wasm", ["cdylib", "rlib"], "/Users/bud/repos/syncer/syncer_wasm/src/lib.rs", Edition2024) }
+   0.073733583s  INFO prepare_target{force=false package_id=syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm) target="syncer_wasm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/syncer_wasm-eebf74c4a248832d/lib-syncer_wasm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.074282625s  INFO prepare_target{force=false package_id=syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm) target="syncer_wasm"}: cargo::core::compiler::fingerprint: fingerprint error for syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("syncer_wasm", ["cdylib", "rlib"], "/Users/bud/repos/syncer/syncer_wasm/src/lib.rs", Edition2024) }
+   0.074285458s  INFO prepare_target{force=false package_id=syncer_wasm v0.1.0 (/Users/bud/repos/syncer/syncer_wasm) target="syncer_wasm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/bud/repos/syncer/target/wasm32-unknown-unknown/debug/.fingerprint/syncer_wasm-6da9dca6171fc995/test-lib-syncer_wasm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking tokio v1.52.1
+    Checking rustls v0.23.39
+error: could not compile `rustls` (lib) due to 7 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `tokio` (lib) due to 1 previous error
