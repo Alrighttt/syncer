@@ -2383,7 +2383,7 @@ pub async fn sync_chain(
     const V2_CHECKPOINT_MAINNET: &str = "0000000000000000b3b69b56214c974ce293a310d5fcfedb85f2e6b039e5bac0"; // height 529999
     const V2_CHECKPOINT_ZEN: &str = "0000000863c1e1191775e601ead23feeae6f5bab166eb1da538b091c6613be72"; // height 49
 
-    log("Connecting...", "info");
+    log("Connecting...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log("WebTransport connected!", "ok");
 
@@ -2609,7 +2609,7 @@ pub async fn scan_balance(
     let cert_hash = parse_cert_hash(&cert_hash_hex)?;
     let target = parse_address(&target_address)?;
 
-    log("Connecting...", "info");
+    log("Connecting...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!(
@@ -2889,7 +2889,7 @@ pub async fn sync_headers(
     }
 
     // Connect to peer and fetch any new headers beyond what we have
-    log("Connecting to peer for header sync...", "info");
+    log("Connecting to peer for header sync...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!(
@@ -3065,7 +3065,7 @@ pub async fn generate_filters_chunk(
     };
 
     // Connect
-    log("Connecting...", "info");
+    log("Connecting...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!("Connected (peer {})", conn.peer_info.addr),
@@ -3391,7 +3391,7 @@ pub async fn generate_filters(
     let p: u8 = 19;
 
     // Step 1: Connect
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!(
@@ -3836,7 +3836,7 @@ pub async fn generate_txindex(
     const V2_CHECKPOINT_MAINNET: &str = "0000000000000000b3b69b56214c974ce293a310d5fcfedb85f2e6b039e5bac0"; // height 529999
     const V2_CHECKPOINT_ZEN: &str = "0000000863c1e1191775e601ead23feeae6f5bab166eb1da538b091c6613be72"; // height 49
 
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!(
@@ -4241,7 +4241,7 @@ pub async fn scan_balance_filtered(
         .collect();
 
     // Step 3: Connect to peer and download matching blocks + tail
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!(
@@ -4764,7 +4764,7 @@ pub async fn lookup_txid(
         }
     };
 
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(
         &format!("Connected to {}", conn.peer_info.addr),
@@ -5155,7 +5155,7 @@ async fn fetch_block_by_height(
 
     let prev_id = resolve_prev_id(&header_ids, header_offset, height, genesis_id, genesis_id_hex)?;
 
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(url, genesis_id, cert_hash).await?;
     log(&format!("Connected to {}", conn.peer_info.addr), "ok");
 
@@ -5271,7 +5271,7 @@ async fn fetch_block_with_txid_match(
         }
     };
 
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(url, genesis_id, cert_hash).await?;
     log(&format!("Connected to {}", conn.peer_info.addr), "ok");
 
@@ -5488,7 +5488,7 @@ pub async fn lookup_utxos(
     };
 
     // Connect to peer
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(&format!("Connected to {}", conn.peer_info.addr), "ok");
     let mut wt = conn.wt;
@@ -6713,7 +6713,7 @@ pub async fn scan_wallet_utxos(
     }
 
     // Connect and fetch matched blocks
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(&format!("Connected! Peer: {}", conn.peer_info.addr), "ok");
     let mut wt = conn.wt;
@@ -7405,7 +7405,7 @@ pub async fn compute_utxo_proofs(
     log(&format!("Checkpoint height: {}", checkpoint_height), "info");
 
     // Connect to peer
-    log("Connecting to peer...", "info");
+    log("Connecting to peer...", "debug");
     let conn = connect_and_handshake(&url, genesis_id, cert_hash.as_deref()).await?;
     log(&format!("Connected to {}", conn.peer_info.addr), "ok");
 
